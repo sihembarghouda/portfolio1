@@ -1,0 +1,136 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps du document */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #4A4A4A;
+}
+
+/* Navigation */
+.navbar {
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #D81B60;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(to bottom right, #E1BEE7, #F8BBD0);
+    color: #4A4A4A;
+    padding: 3rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D81B60;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* Cartes de projets */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    border-bottom: 3px solid #D81B60;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #4A4A4A;
+    margin-top: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+/* Boutons */
+.btn {
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #C2185B;
+    transform: translateY(-2px);
+}
+
+/* Formulaire de contact */
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #D81B60;
+}
+
+/* Footer */
+footer {
+    background-color: #E1BEE7;
+    color: #4A4A4A;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 2px solid #D81B60;
+}
+
+footer p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
